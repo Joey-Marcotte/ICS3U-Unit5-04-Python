@@ -18,8 +18,8 @@ def main():
     # calls other functions
     while True:
 
-        radius_from_user = input("Enter the base of the triangle (cm): ")
-        height_from_user = input("Enter the height of the triangle (cm): ")
+        radius_from_user = input("Enter the radius of the cylinder (cm): ")
+        height_from_user = input("Enter the height of the cylinder (cm): ")
 
         try:
             radius_from_user_number = int(radius_from_user)
